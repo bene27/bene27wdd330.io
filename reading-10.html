@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+     <meta charset="UTF-8">
+     <tile>Benedict Da Silva's Week03 WDD reading</tile>
+
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lora:ital,wght@1,500&family=Sriracha&display=swap');
+
+
+h1{font-family:'Big Shoulders Display', cursive;
+   color:black;
+   text-align: center;
+}
+   
+
+li::first-letter {font-size:25px;
+                  font-family:'Big Shoulders Display', cursive ;
+                  text-align: center;
+                  color:blue;
+}
+
+h4{font-family:'Sriracha', cursive;
+   border-radius: 50%;
+}
+
+body{background-color:lightblue;
+     font-size:20px;
+     font-family:'Lora', serif;
+     margin-left: 3px;
+}
+
+input{background-color:lightblue;
+      height: 40px;
+      width:500px;
+   }
+
+footer{border: solid;
+       text-align: center;
+       font-size:20px;
+       background-color:cornflowerblue;
+
+}
+        </style>
+
+    </head>
+
+    <body>
+        <main>
+            <h1>Benedict Da Silva's WDD330 Week10:Reading</h1>
+            <h4>MDN: Validating Form</h4>
+            <form>
+                <label for="name">Name:*</label>
+                <br>
+                <input type="text" id="name" name="name" required/>
+                <br>
+     
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="das2000@byui.edu" inputmode="email"/>
+                <br>
+     
+                <label for="number">Phone number:*</label>
+                <br>
+                <input type="tel" id="number" name="number" placeholder="### ### ####" inputmode="numeric" required/>
+                <br>
+
+            <ol>
+                <li>All form controls must be filed out before submitting data to the server</li>
+                <li>Client side validation is an initial check</li>
+                <li>Client server is not an exhausive security measure</li>
+                <li>Form validation is when the browser or server checks to see the data entered is correct</li>
+                <li>Two types of client side validation built in :form validation and JavaScript</li>
+                <li>Simplest HTML5 validation feature is the required attribute</li>
+                <li>Another validation feature is the pattern attribute</li>
+                <li>Constraining the length of your entries make use of min and max length</li>
+                <li>Constraining the values of your entries use range</li>
+                <li>Using JavaScript as a constraint validation API:It is available in most browsers</li>
+            </ol>
+
+            <dl>Using customized error messages have the following drawbacks</dl>
+            <dd>You cannot change the standard look using CSS </dd>
+            <dd>It also depends on the browser locale</dd>
+
+            <dl>Validating forms without a built in API</dl>
+            <dd>You need to know how to validate your data</dd>
+            <dd>You have to decide how the form will behave</dd>
+            <dd>Provide much helpful information</dd>
+           
+            <h4>MDN: Using Fetch()</h4>
+            
+            <ol>
+               <li>The fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline</li>
+               <li>Fetch differs from jQuery.ajax() in three main ways</li>
+               <li>Fetch method accepts a second parameter</li>
+               <li>To cause browsers to send a request with credentials include same origin and cross origin calls</li>
+               <li>Use fetch() to POST JSON encoded data</li>
+               <li>File upload <input type="file"/> and formData() and fetch()</li>
+               <li>Checking that the promise is resolved then checking that the response.ok property has a value of true.This checks if the fetch was successful</li>
+               <li>Fetch API support can be detected by checking for the existence of Headers, Reqest, Response or Fetch</li>
+            </ol>
+        </main>
+
+        <footer>
+            <p>@Benedict Da Silva|BYU-I | WDD330 | Winter2021 | South Africa</p>
+            <nav>
+                <a target="_blank" href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </nav>
+        
+        </footer>
+    </body>
+</html>
