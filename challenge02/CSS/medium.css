@@ -1,0 +1,61 @@
+@media(min-width:35em){
+     
+    @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Playfair+Display:ital@1&display=swap');
+    
+    #logo{float:left;
+         border-radius: 50%;
+         border-style: solid;
+        
+    }
+    
+    h1  {font-family:'Lemonada', cursive;
+        color:black;
+        margin-left: 40%;
+   }
+   
+    header   {font-style: italic;
+              font-family:'Lemonada', cursive;
+              text-align: center;
+              background-color:grey;
+    
+    }
+    
+    nav button{display: none;}
+
+    nav ul li {float:left}
+
+    nav ul li a {border: none;
+                color:black;
+                border-right: 1px soild black;
+                padding:.8rem 1rem;
+            }
+    nav ul {margin-left:2%;
+            background-color:white;}
+
+    nav ul.hide{display: block;}
+
+    body{background-color:white;
+        font-size:30px;
+        font-family:'Lobster', cursive;
+        display: block;
+    }
+
+    p::first-letter {font-size:35px;
+                    font-family:'Lemonada', cursive;
+                    color:black;
+    }
+    p{font-family:'Playfair Display' , serif;
+     font-size: 30px;
+     font-style: italic;
+    }
+    
+    a:hover{background-color:grey;
+    }
+    
+    footer{border: solid;
+           text-align: center;
+           font-size:20px;
+           background-color:grey;
+        }
+    
+    }

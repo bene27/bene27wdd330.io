@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>New Yewth-Form</title>
+        <script src="jscript.js"></script>
+        <link href="CSS/small.css" rel="stylesheet"/>
+        <link href="CSS/medium.css" rel="stylesheet"/>
+        <link href="CSS/styles.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <header>
+            <picture><img id="logo" style="float: left;border: black; border-radius:50%;" src="images.jpg/Thrift Clothing Facebook Cover.png"alt="logo image" width="130px" height="130px"/></picture>
+            <p style="font-size: 55px;">New Yewth</p>
+            <p style="font-size:30px;">Quality Clothing Found nowhere else</p>
+           
+            <div>
+            <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+    
+             <ul style="margin-left: 0%; font-size:25px;" id ="menu" class="hide">
+                    <li><a target="_blank" href="index.html">Home</a></li>
+                    <li><a target="_blank" href="shop.html">Shop</a></li>
+                    <li><a target="_blank" href="form.html">Shipping</a></li>
+                    <li><a target="_blank" href="location.html">Where to find us</a></li>
+                    
+            </ul>    
+            </nav>
+            </div>
+        </header>
+
+        <main>
+
+<br>
+<br>
+            <h1>Shipping</h1>
+            <h2>Insert Shipping Details</h2>
+            <img src="images.jpg/0005" alt="preston" width="100%" height="350px"/>
+            <br>
+
+<div style="border:black dotted 10px;">
+
+       <form>
+           <label for="name">Name:*</label>
+           <br>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" type="text" id="name" name="name" required/>
+           <br>
+
+           <label for="email">Email:</label>
+           <br>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" type="email" id="email" name="email" placeholder="das2000@byui.edu" inputmode="email"/>
+           <br>
+
+           <label for="number">Phone number:*</label>
+           <br>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" type="tel" id="number" name="number" placeholder="### ### ####" inputmode="numeric" required/>
+           <br>
+
+           <label for="zip">Zip code:*</label>
+           <br>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" type="number" id="zip" name="zip" inputmode="numeric" required/>
+           <br>
+
+           <label for="date">Purchase Date:</label>
+           <br>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" type="date" id="date" name="date"/>
+           <br>
+
+           <label for="mylist">Clothing Item:</label>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" list="list"  id="mylist" name="mylist"/>
+           <datalist id="list">
+               <option value="Bag">
+               <option value="T-shirt">
+               <option value="Mask">
+               <option value="Hat">
+               <option value="Hoodies">
+               <option value="Socks">
+           </datalist>
+           <br>
+
+           <label for="range">Desire to participate in a Survey:</label>
+           <br>
+           <input style="background-color:lightslategray; height: 40px; width:500px;" type="range" id="range" name="range" min="1" max="10" step="1">
+           <br>
+
+           <label for="select">Size:</label>
+           <br>
+           <select style="width: 500px; height: 40px; font-size:30px; background-color:lightslategray;"id="select" name="select">
+               <br>
+               <option value="Other Size" disabled >Select Select</option>
+               <option value="Extra Small">Extra Small</option>
+               <option value="Small">Small</option>
+               <option value="Medium">Medium</option>
+               <option value="Large">Large</option>
+               <option value="Extra Large">Extra Large</option>
+           </select>
+           <br>
+
+         
+           <label>Insurance:</label>
+        <div style="display:inline-block;">
+           <input type="radio" id="yes" name="insurance" value="yes">
+           <label for="yes" name="yes">Yes</label>
+           <input type="radio" id="danger2" name="insurance" value="maybe">
+           <label value="maybe" name="maybe">Maybe</label>
+           <input type="radio" id="danger3" name="insurance" value="no">
+           <label for="no" name="no">No</label>
+        </div>
+
+           <br>
+
+           <label for="info">Additional Information/Comments:</label>
+           <br>
+           <textarea style="height: 300px; width: 100%; background-color:grey; font-size:40px; ;" >Additional Information/Comments:</textarea>
+           <br>
+
+        
+           <button style="width: 150px; height:70px;"type="submit" id="submit" name="submit">SUBMIT</button>
+           
+
+       </form>
+</div>  
+        
+        <div style="border: black;">
+         </div>
+
+        
+         
+        </main>
+
+        <footer>
+            <p> @New_Yewth| South Africa</p>
+
+            <nav>
+                <a target="_blank" href="https://www.byui.edu/online">ONLINE SHOP</a>
+            </nav>
+
+        </footer>
+    </body>
+</html>
